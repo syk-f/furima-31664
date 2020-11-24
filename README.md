@@ -4,7 +4,7 @@
 
 | Column       | Type   | Options     |
 | ----------   | ------ | ----------- |
-| nickname         | string | null: false |
+| nickname     | string | null: false |
 | email        | string | null: false |
 | password     | string | null: false |
 | family_kanji | string | null: false |
@@ -15,6 +15,7 @@
 
 ### Association
 - has_many :Products
+
 
 
 ## items テーブル
